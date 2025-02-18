@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Itens</title>
+</head>
+<body>
+<h2>Itens Disponíveis</h2>
+<ul>
+    <li th:each="item : ${items}">
+        <span th:text="${item.name}">Nome do Item</span> -
+        <span th:text="${item.price}">Preço</span>
+    </li>
+</ul>
+</body>
+</html>
