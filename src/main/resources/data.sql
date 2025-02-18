@@ -1,7 +1,7 @@
 -- Criando a tabela 'usuario'
 CREATE TABLE IF NOT EXISTS usuario (
     email VARCHAR(255) PRIMARY KEY,
-    senha VARCHAR(255) NOT NULL
+    password VARCHAR(255) NOT NULL
 );
 
 -- Criando a tabela 'item'
@@ -12,9 +12,9 @@ CREATE TABLE IF NOT EXISTS item (
 );
 
 -- Inserindo dados de exemplo na tabela 'usuario'
-INSERT INTO usuario (email, senha) VALUES ('joao@teste.com', 'senha123');
-INSERT INTO usuario (email, senha) VALUES ('maria@teste.com', 'senha456');
-INSERT INTO usuario (email, senha) VALUES ('pedro@teste.com', 'senha789');
+INSERT INTO usuario (email, password) VALUES ('joao@teste.com', 'senha123');
+INSERT INTO usuario (email, password) VALUES ('maria@teste.com', 'senha456');
+INSERT INTO usuario (email, password) VALUES ('pedro@teste.com', 'senha789');
 
 -- Inserindo dados de exemplo na tabela 'item'
 INSERT INTO item (name, price) VALUES ('Produto A', 29.99);
