@@ -4,13 +4,14 @@ O objetivo deste teste é avaliar a capacidade do candidato de escrever testes a
 
 ## Instruções
 
-1. A aplicação backend já foi desenvolvido utilizando Spring Boot, portanto não é necessário modificar o backend. **O foco do teste será somente nos testes com Cypress**. Para iniciar o backend, é necessário:
+1. A aplicação backend já foi desenvolvida utilizando Spring Boot, portanto não é necessário modificar ou se preocupar com o backend. **O foco do teste será somente nos testes com Cypress**.
+2. Para iniciar o backend, é necessário:
     - Ter o [docker](https://docs.docker.com/engine/install/) instalado na máquina.
     - Entrar no diretório raíz da aplicação pelo terminal e executar: `docker-compose up --build`
-2. O candidato deverá realizar a configuração inicial do Cypress e escrever os testes automatizados mencionados abaixo.
-3. Além dos testes que serão solicitados abaixo, existe muito valor em cenários pensando "fora da caixa" que mostrem problemas nas aplicações. Caso cenários assim sejam encontrados, criar testes dedicados do Cypress em arquivos de spec dedicados comprovando a falha, explicando o cenário em comentários.
-4. Comentários sempre são bem-vindos em métodos ou estruturas mais complexas.
-5. Importante: Nos envie, ao final, uma descrição com detalhes de como podemos executar os testes implementados por linha de comando.
+3. O candidato deverá realizar a configuração inicial do Cypress e escrever os testes automatizados mencionados abaixo.
+4. Além dos testes que serão solicitados abaixo, existe muito valor em cenários pensando "fora da caixa" que mostrem problemas nas aplicações. Caso cenários assim sejam encontrados, criar testes dedicados do Cypress em arquivos de spec dedicados comprovando a falha, explicando o cenário em comentários.
+5. Comentários sempre são bem-vindos em métodos ou estruturas mais complexas.
+6. Importante: Nos envie, ao final, uma descrição com detalhes de como podemos executar os testes implementados por linha de comando.
 
 
 ## Testes Previstos
